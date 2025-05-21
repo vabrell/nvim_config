@@ -84,6 +84,8 @@ vim.opt.tabstop = 4
 vim.opt.shiftwidth = 4
 vim.opt.softtabstop = 4
 vim.opt.expandtab = true
+-- Turn off swap files
+vim.opt.swapfile = false
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
